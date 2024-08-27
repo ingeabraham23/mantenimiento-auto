@@ -1,0 +1,89 @@
+@media (max-width: 768px) {
+    .contenedor-filtros{
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+    }
+
+    .selector{
+        font-size: 20px;
+        background-color: rgb(255, 249, 159);
+    }
+
+    .tabla-registros{
+        border: 1px solid black;
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .encabezado{
+        font-size: 12px;
+        border: 1px solid black;
+    }
+
+    .columna-index{
+        background-color: aqua;
+        border: 1px solid black;
+        text-align: center;
+    }
+
+    .columna-detalles{
+        background-color: darkorange;
+        border: 1px solid black;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .columna-fecha{
+        background-color: darkorange;
+        border: 1px solid black;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .columna-costo{
+        background-color: darkorange;
+        border: 1px solid black;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .columna-mano-de-obra{
+        background-color: darkorange;
+        border: 1px solid black;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .columna-kilometraje{
+        background-color: darkorange;
+        border: 1px solid black;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .columna-mecanico{
+        background-color: darkorange;
+        border: 1px solid black;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .boton-capturar{
+        margin-top: 10px;
+        background-color: fuchsia;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .boton-eliminar{
+        margin-top: 10px;
+        background-color: rgb(255, 0, 0);
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 20px;
+    }
+}
